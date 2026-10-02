@@ -1,0 +1,47 @@
+:root {
+  /* --layout-padding: 140px; */
+  --item-height: 28px;
+  --vertical-wrap-padding: 14px;
+  --graph_bg_thick: #e3e5e7;
+  --graph_bg_thin: #f6f7f8;
+  --line_regular: #e3e5e7;
+  --line_light: #f1f2f3;
+  --bg1: #ffffff;
+  --bg1_float: #ffffff;
+  --bg2_float: #f6f7f8;
+  --bg3_float: #f1f2f3;
+  --brand_blue: #00aeec;
+  --text1: #18191c;
+  --text2: #61666d;
+  --layout-width: 1020px;
+  /* grid的 */
+  --7c7fe7cc: 5;
+  --aaea038c: 4;
+}
+
+@media (min-width: 1140px) and (max-width: 1299.9px) {
+  :root {
+    --layout-padding: 60px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1559.9px) {
+  :root {
+    --layout-width: auto;
+    --layout-padding: 60px;
+  }
+}
+
+@media (min-width: 1560px) and (max-width: 2059.9px) {
+  :root {
+    --layout-padding: 140px;
+    --layout-width: auto;
+  }
+}
+
+@media (min-width: 2060px) {
+  :root {
+    --layout-width: auto;
+    --layout-padding: 140px;
+  }
+}
